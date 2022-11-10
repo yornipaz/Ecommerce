@@ -1,0 +1,31 @@
+.p-contact__from {
+  max-width: 37.5rem;
+  margin: 0 auto;
+}
+.p-contact__from fieldset {
+  border: 1px solidvar(--color-tertiary);
+  margin-bottom: 1.25rem;
+}
+.p-contact__from legend {
+  background-color: var(--color-primary);
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  color: var(--color-secondary);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.p-contact__control {
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0rem;
+}
+.p-contact__control label {
+  flex-basis: 6.25rem;
+}
+.p-contact__control input:not([type="radio"]),
+.p-contact__control textarea,
+.p-contact__control select {
+  flex: 1;
+}

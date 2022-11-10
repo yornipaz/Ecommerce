@@ -1,0 +1,10 @@
+.p-about__wraper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+.p-about__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

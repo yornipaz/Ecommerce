@@ -1,0 +1,16 @@
+.btn__suscess {
+    background-color: var(--s-color-green);
+    font-size: 0.875rem;
+    display: block;
+    color: var(--color-secondary);
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    transition: background-color 0.2s ease-out;
+    border:none;
+    
+  }
+  .btn__suscess :hover {
+    background-color: var(--color-green);
+    cursor:pointer;
+  }

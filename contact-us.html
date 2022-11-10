@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/pages/_p-contact.css" />
+    <title>Commerce - Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header__title">Tienda <span> Muebles</span></h1>
+    </header>
+    <div class="navigation">
+      <nav class="navigation__navbar container__center d-flex">
+        <a href="index.html">Inicio</a>
+        <a href="about-us.html">Nosotros</a>
+        <a href="store.html">Tienda</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Galeria</a>
+        <a href="contact-us.html">Contacto</a>
+      </nav>
+    </div>
+    <div>
+      <main class="container__center">
+        <h2 class="text-center">Contacto</h2>
+        <form action="" class="p-contact__from">
+          <fieldset>
+            <legend>Tus Datos</legend>
+            <div class="p-contact__control">
+              <label for="name">Nombre : </label
+              ><input id="name" type="text" placeholder="Tu nombre" />
+            </div>
+            <div class="p-contact__control">
+              <label for="subject"> Asunto : </label
+              ><input id="subject" type="text" placeholder="Tu asunto" />
+            </div>
+            <div class="p-contact__control">
+              <label for="tel"> Telefono : </label
+              ><input id="tel" type="tel" placeholder="Tu telefono" />
+            </div>
+            <div class="p-contact__control">
+              <label for="email"> correo : </label
+              ><input id="email" type="email" placeholder="Tu correo" />
+            </div>
+            <div class="p-contact__control">
+              <label for="message"> message : </label>
+              <textarea
+                name="message"
+                id="message"
+                cols="20"
+                rows="5"
+              ></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Pais</legend>
+            <div class="p-contact__control">
+              <label for="country"> message : </label>
+              <select name="country" id="country">
+                <option value="default">-- Selecione --</option>
+                <option value="Colombia" select>Colombia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Peru">Peru</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Argentina">Argentina</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Informacion Extra</legend>
+            <div class="p-contact__control">
+              <label for="client"> Cliente : </label>
+              <input type="radio" id="client" name="information" />
+            </div>
+            <div class="p-contact__control">
+              <label for="provaider"> provedor : </label>
+              <input type="radio" id="provaider " name="information" />
+            </div>
+            <div class="p-contact__control">
+              <label for="categories"> categorias de interes : </label>
+              <input type="text" name="categories" list="categories" />
+              <datalist id="categories">
+                <option value="Cocina"></option>
+                <option value="Exterior"></option>
+                <option value="Comedor"></option>
+                <option value="Patio"></option>
+              </datalist>
+            </div>
+          </fieldset>
+          <button class="btn__suscess" type="submit">Enviar</button>
+        </form>
+      </main>
+    </div>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__links">
+          <h3>Categorias</h3>
+          <nav class="footer__navigation">
+            <a href="#">Cocina</a><a href="#">Oficina</a><a href="#">Jardin</a
+            ><a href="#">Cochera</a><a href="#">Dormitorios</a>
+          </nav>
+        </div>
+        <div class="footer__links">
+          <h3>Sobre Nosotros</h3>
+          <nav class="footer__navigation">
+            <a href="#">Nuestra Historia</a
+            ><a href="#">Mision,Vision y Valores</a><a href="#">Carreras</a
+            ><a href="#">Politicas de Privacidad</a
+            ><a href="#">Terminos del Servicio</a>
+          </nav>
+        </div>
+        <div class="footer__links">
+          <h3>Soporte</h3>
+          <nav class="footer__navigation">
+            <a href="#">Preguntas Frecuentes </a><a href="#">Ayuda en Linea</a
+            ><a href="#">Confianza y Seguridad</a>
+          </nav>
+        </div>
+      </div>
+      <p class="text-center">Derechos reservados@YFBP</p>
+    </footer>
+  </body>
+</html>

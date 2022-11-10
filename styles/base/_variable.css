@@ -1,0 +1,40 @@
+:root {
+  --color-primary: #005596;
+  --color-secondary: #f8f9fa;
+  --color-tertiary: #494b4d;
+  --color-dark-blue: #003964;
+  --color-light-blue: #ccddea;
+  --color-dark-gray: #f3f5f7;
+  --color-light-red: #ff3332;
+  --color-yellow: #d4b32a;
+  --color-gray-btn: #dae0e8;
+  --color-green:#3f7e00;
+  --color-light-gray: #e6eaf0;
+  --color-active-blue: #2456a7;
+  --color-menu-font: #b6c7e2;
+  --color-not-valid: #ff2d55;
+
+  /**Status span colors*/
+  --status-color-light-blue: #ccddea;
+  --status-border-color-light-blue: #80aaca;
+  --status-border-hover-blue: #4f8dbd;
+  --status-color-light-yellow: #fff7d6;
+  --status-border-color-light-yellow: #ffeb98;
+  --status-color-finished: #ccddea;
+  --status-color-interrupted: #c5e9ce;
+  --status-border-color-interrupted: #78ca8b;
+  --status-color-purple: #641adb;
+  --status-color-green-forest: #718b77;
+  --status-color-gray: #e6eaef;
+  --status-border-color-gray: #b6bbc1;
+  --status-color-yellow: #ffb800;
+  /**Status color f2*/
+  --s-color-green: #59a310;
+  --s-color-gray: #e6eaf0;
+  --s-color-orange: #fd8324;
+  /**warning*/
+  --warning-400: #ff5554;
+  /**Neutral*/
+  --neutral-400: #eceff3;
+  --neutral-500: #d7d9dc;
+}

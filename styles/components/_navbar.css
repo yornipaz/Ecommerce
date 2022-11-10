@@ -1,0 +1,13 @@
+.navigation {
+  border-top: 1px solid var(--color-tertiary);
+}
+.navigation__navbar {
+  padding: 20px 0px;
+  justify-content: space-between;
+  
+}
+.navigation__navbar a{
+  font-size: 1rem;
+
+  color: var(--color-tertiary);
+}

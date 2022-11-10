@@ -1,0 +1,10 @@
+.banner__container{
+    height:34.375rem;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.banner__container-home{
+    background-image: url('../../img/principal.jpg');
+    max-width: 100%;
+
+}

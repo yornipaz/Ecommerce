@@ -1,0 +1,13 @@
+.p-gallery__wrapper{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1.25rem;
+}
+.p-gallery__wrapper img{
+   width:25rem;
+   height:25rem;
+   object-fit: cover; 
+}

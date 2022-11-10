@@ -1,0 +1,24 @@
+.footer {
+  margin-top: 3rem;
+  padding: 3rem;
+  border: 1px solid var(--color-light-gray);
+}
+.footer__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.3rem;
+}
+.footer__navigation {
+  display: flex;
+  flex-direction: column;
+}
+.footer__links h3{
+  font-size:1.5rem;
+}
+.footer__navigation a{
+    color: var(--color-tertiary);
+    font-weight:600;
+    font-size:0.875rem;
+    padding:  .25rem;
+}
+
